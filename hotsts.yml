@@ -1,6 +1,5 @@
 [linux]
-la-lx-print-01     ansible_connection=ssh        ansible_user=awx ansible_
-other2.example.com     ansible_connection=ssh        ansible_user=myotheruser
+la-lx-print-01     ansible_connection=ssh        ansible_user=awx ansible_host=10.15.51.201
 [proxy]
 
 [monitoring]
