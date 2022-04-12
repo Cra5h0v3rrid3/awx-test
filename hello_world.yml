@@ -1,8 +1,10 @@
 ---
 - name: Ein Test Playbook - Hello World
   hosts: all
+  
   tasks:
+  
     - name: Erstelle eine Datei im Home und Schreibe einen Text 
-      copy:
+      copy: #WICHTIG unter name MUSS direkt der task! Kein Leerzeichen!!!!
         content: Hello World - i was here
         dest: /home/smieth/blubb.txt
